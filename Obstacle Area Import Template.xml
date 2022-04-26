@@ -1,0 +1,90 @@
+<message:AIXMBasicMessage xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:avitech="http://www.aixm.aero/schema/5.1/extensions/Avitech/eSDO" xmlns:avinor="http://www.aixm.aero/schema/5.1/extensions/Avinor/eSDO" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:ns10="http://www.aixm.aero/schema/5.1/extensions/EUR/eASM" xmlns:nats="http://www.aixm.aero/schema/5.1/extensions/NATS/eSDO" xmlns:message="http://www.aixm.aero/schema/5.1/message" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" gml:id="id147404" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd">
+    <message:hasMember xlink:type="simple">
+        <aixm:ObstacleArea gml:id="id510261">
+            <gml:identifier codeSpace="urn:uuid:">2ea7ce56-3f34-42c3-967f-1fc04c08656f</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:ObstacleAreaTimeSlice gml:id="id510190">
+                    <gml:validTime xlink:type="simple">
+                        <gml:TimeInstant gml:id="id510252">
+                            <gml:timePosition>2021-05-24T00:00:00</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:validTime>
+                    <aixm:interpretation>SNAPSHOT</aixm:interpretation>
+                    <aixm:sequenceNumber>0</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:featureLifetime xlink:type="simple">
+                        <gml:TimePeriod gml:id="id510253">
+                            <gml:beginPosition>2021-05-21T00:00:00</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:type>AREA4</aixm:type>
+                    <aixm:obstructionIdSurfaceCondition xsi:nil="true"/>
+                    <aixm:reference_ownerRunway xlink:type="simple" xlink:href="urn:uuid:0dd8ed8a-4aa1-4463-b73b-668b9686c747"/>
+                    <aixm:surfaceExtent>
+                        <aixm:ElevatedSurface srsName="urn:ogc:def:crs:EPSG::4326" gml:id="id510193">
+                            <gml:polygonPatches>
+<gml:PolygonPatch interpolation="planar">
+    <gml:exterior>
+        <gml:Ring>
+            <gml:curveMember xlink:type="simple">
+                <gml:Curve gml:id="id510194">
+                    <gml:segments>
+                        <gml:GeodesicString interpolation="geodesic">
+                            <gml:pointProperty xlink:type="simple">
+<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="id510195">
+    <gml:pos srsName="urn:ogc:def:crs:EPSG::4326">0.023056 32.441389</gml:pos>
+    <aixm:horizontalAccuracy xsi:nil="true"/>
+    <aixm:elevation uom="FT">3745</aixm:elevation>
+</aixm:ElevatedPoint>
+                            </gml:pointProperty>
+                            <gml:pointProperty xlink:type="simple">
+<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="id510196">
+    <gml:pos srsName="urn:ogc:def:crs:EPSG::4326">0.023056 32.440278</gml:pos>
+    <aixm:horizontalAccuracy xsi:nil="true"/>
+    <aixm:elevation uom="FT">3745</aixm:elevation>
+</aixm:ElevatedPoint>
+                            </gml:pointProperty>
+                            <gml:pointProperty xlink:type="simple">
+<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="id510197">
+    <gml:pos srsName="urn:ogc:def:crs:EPSG::4326">0.021389 32.440278</gml:pos>
+    <aixm:horizontalAccuracy xsi:nil="true"/>
+    <aixm:elevation uom="FT">3745</aixm:elevation>
+</aixm:ElevatedPoint>
+                            </gml:pointProperty>
+                            <gml:pointProperty xlink:type="simple">
+<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="id510198">
+    <gml:pos srsName="urn:ogc:def:crs:EPSG::4326">0.021389 32.441667</gml:pos>
+    <aixm:horizontalAccuracy xsi:nil="true"/>
+    <aixm:elevation uom="FT">3745</aixm:elevation>
+</aixm:ElevatedPoint>
+                            </gml:pointProperty>
+                            <gml:pointProperty xlink:type="simple">
+<aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="id510199">
+    <gml:pos srsName="urn:ogc:def:crs:EPSG::4326">0.023056 32.441389</gml:pos>
+    <aixm:horizontalAccuracy xsi:nil="true"/>
+    <aixm:elevation uom="FT">3745</aixm:elevation>
+</aixm:ElevatedPoint>
+                            </gml:pointProperty>
+                        </gml:GeodesicString>
+                    </gml:segments>
+                </gml:Curve>
+            </gml:curveMember>
+        </gml:Ring>
+    </gml:exterior>
+</gml:PolygonPatch>
+                            </gml:polygonPatches>
+                            <aixm:horizontalAccuracy xsi:nil="true"/>
+                            <aixm:elevation xsi:nil="true"/>
+                            <aixm:geoidUndulation xsi:nil="true"/>
+                            <aixm:verticalDatum xsi:nil="true"/>
+                            <aixm:verticalAccuracy xsi:nil="true"/>
+                        </aixm:ElevatedSurface>
+                    </aixm:surfaceExtent>
+                    <aixm:annotation xsi:nil="true"/>
+                </aixm:ObstacleAreaTimeSlice>
+            </aixm:timeSlice>
+        </aixm:ObstacleArea>
+    </message:hasMember>    
+</message:AIXMBasicMessage>

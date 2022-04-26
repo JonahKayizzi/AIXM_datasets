@@ -1,0 +1,41 @@
+
+<message:AIXMBasicMessage xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:avitech="http://www.aixm.aero/schema/5.1/extensions/Avitech/eSDO" xmlns:avinor="http://www.aixm.aero/schema/5.1/extensions/Avinor/eSDO" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:ns10="http://www.aixm.aero/schema/5.1/extensions/EUR/eASM" xmlns:nats="http://www.aixm.aero/schema/5.1/extensions/NATS/eSDO" xmlns:message="http://www.aixm.aero/schema/5.1/message" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" gml:id="id220594" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd">
+    <gml:boundedBy xsi:nil="true"/>
+    <message:hasMember xlink:type="simple">
+        <aixm:SurveyControlPoint gml:id="id218803">
+            <gml:identifier codeSpace="urn:uuid:">c6b7b191-ec5d-4174-aac4-61ea62dfd74f</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:SurveyControlPointTimeSlice gml:id="id218796">
+                    <gml:validTime xlink:type="simple">
+                        <gml:TimeInstant gml:id="id218801">
+                            <gml:timePosition>2021-05-20T00:00:00</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:validTime>
+                    <aixm:interpretation>SNAPSHOT</aixm:interpretation>
+                    <aixm:sequenceNumber>0</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:featureLifetime xlink:type="simple">
+                        <gml:TimePeriod gml:id="id218802">
+                            <gml:beginPosition>2021-05-20T00:00:00</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:designator>HUSO ARP</aixm:designator>
+                    <aixm:associatedAirportHeliport xlink:type="simple" xlink:href="urn:uuid:22f45725-74bd-417b-931b-b2c6b77e1dfd"/>
+                    <aixm:location>
+                        <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="id218799">
+                            <gml:pos srsName="urn:ogc:def:crs:EPSG::4326">1.7223111 33.6186833</gml:pos>
+                            <aixm:horizontalAccuracy uom="NM">1</aixm:horizontalAccuracy>
+                            <aixm:elevation uom="FT">3697</aixm:elevation>
+                            <aixm:geoidUndulation xsi:nil="true"/>
+                            <aixm:verticalDatum>EGM_96</aixm:verticalDatum>
+                            <aixm:verticalAccuracy xsi:nil="true"/>
+                        </aixm:ElevatedPoint>
+                    </aixm:location>
+                    <aixm:annotation xsi:nil="true"/>
+                </aixm:SurveyControlPointTimeSlice>
+            </aixm:timeSlice>
+        </aixm:SurveyControlPoint>
+    </message:hasMember>
+</message:AIXMBasicMessage>

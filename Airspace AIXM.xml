@@ -1,0 +1,147 @@
+<message:AIXMBasicMessage xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:aixm="http://www.aixm.aero/schema/5.1" xmlns:avitech="http://www.aixm.aero/schema/5.1/extensions/Avitech/eSDO" xmlns:avinor="http://www.aixm.aero/schema/5.1/extensions/Avinor/eSDO" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns="http://www.isotc211.org/2005/gmx" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:ns10="http://www.aixm.aero/schema/5.1/extensions/EUR/eASM" xmlns:nats="http://www.aixm.aero/schema/5.1/extensions/NATS/eSDO" xmlns:message="http://www.aixm.aero/schema/5.1/message" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" gml:id="id147404" xsi:schemaLocation="http://www.aixm.aero/schema/5.1/message http://www.aixm.aero/schema/5.1/message/AIXM_BasicMessage.xsd">
+<message:hasMember xlink:type="simple">
+        <aixm:Airspace gml:id="id131213">
+            <gml:identifier codeSpace="urn:uuid:">2af4be32-639f-4670-a256-36a44d3f7abb</gml:identifier>
+            <gml:boundedBy xsi:nil="true"/>
+            <aixm:timeSlice>
+                <aixm:AirspaceTimeSlice gml:id="id130064">
+                    <gml:validTime xlink:type="simple">
+                        <gml:TimeInstant gml:id="id131052">
+                            <gml:timePosition>2021-05-20T00:00:00</gml:timePosition>
+                        </gml:TimeInstant>
+                    </gml:validTime>
+                    <aixm:interpretation>SNAPSHOT</aixm:interpretation>
+                    <aixm:sequenceNumber>0</aixm:sequenceNumber>
+                    <aixm:correctionNumber>0</aixm:correctionNumber>
+                    <aixm:featureLifetime xlink:type="simple">
+                        <gml:TimePeriod gml:id="id131053">
+                            <gml:beginPosition>2019-05-23T00:00:00</gml:beginPosition>
+                            <gml:endPosition indeterminatePosition="unknown"/>
+                        </gml:TimePeriod>
+                    </aixm:featureLifetime>
+                    <aixm:type>D</aixm:type>
+                    <aixm:designator>HUD30</aixm:designator>
+                    <aixm:localType xsi:nil="true"/>
+                    <aixm:name>HUD 4 GULU</aixm:name>
+                    <aixm:designatorICAO>YES</aixm:designatorICAO>
+                    <aixm:controlType>JOINT</aixm:controlType>
+                    <aixm:upperLowerSeparation xsi:nil="true"/>
+                    <aixm:class>
+                        <aixm:AirspaceLayerClass gml:id="id130130">
+                            <aixm:annotation xsi:nil="true"/>
+                            <aixm:classification>G</aixm:classification>
+                        </aixm:AirspaceLayerClass>
+                    </aixm:class>
+                    <aixm:protectedRoute xsi:nil="true"/>
+                    <aixm:geometryComponent>
+                        <aixm:AirspaceGeometryComponent gml:id="id130816">
+                            <aixm:operation>BASE</aixm:operation>
+                            <aixm:operationSequence>1</aixm:operationSequence>
+                            <aixm:theAirspaceVolume>
+<aixm:AirspaceVolume gml:id="id130817">
+    <aixm:upperLimit uom="FL">100</aixm:upperLimit>
+    <aixm:upperLimitReference>STD</aixm:upperLimitReference>
+    <aixm:lowerLimit uom="FL">000</aixm:lowerLimit>
+    <aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+    <aixm:horizontalProjection>
+        <aixm:Surface gml:id="id130818">
+            <gml:polygonPatches>
+                <gml:PolygonPatch interpolation="planar">
+                    <gml:exterior>
+                        <gml:Ring>
+                            <gml:curveMember xlink:type="simple">
+<gml:Curve gml:id="id130819">
+    <gml:segments>
+        <gml:GeodesicString interpolation="geodesic">
+            <gml:pointProperty xlink:type="simple">
+                <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="id130820">
+                    <gml:pos srsName="urn:ogc:def:crs:EPSG::4326">3.4166666666666665 32.25</gml:pos>
+                    <aixm:horizontalAccuracy xsi:nil="true"/>
+                    <aixm:elevation xsi:nil="true"/>
+                </aixm:ElevatedPoint>
+            </gml:pointProperty>
+            <gml:pointProperty xlink:type="simple">
+                <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="id130821">
+                    <gml:pos srsName="urn:ogc:def:crs:EPSG::4326">3.4166666666666665 32.666666666666664</gml:pos>
+                    <aixm:horizontalAccuracy xsi:nil="true"/>
+                    <aixm:elevation xsi:nil="true"/>
+                </aixm:ElevatedPoint>
+            </gml:pointProperty>
+            <gml:pointProperty xlink:type="simple">
+                <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="id130822">
+                    <gml:pos srsName="urn:ogc:def:crs:EPSG::4326">3.1666666666666665 32.25</gml:pos>
+                    <aixm:horizontalAccuracy xsi:nil="true"/>
+                    <aixm:elevation xsi:nil="true"/>
+                </aixm:ElevatedPoint>
+            </gml:pointProperty>
+            <gml:pointProperty xlink:type="simple">
+                <aixm:ElevatedPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="id130823">
+                    <gml:pos srsName="urn:ogc:def:crs:EPSG::4326">3.4166666666666665 32.25</gml:pos>
+                    <aixm:horizontalAccuracy xsi:nil="true"/>
+                    <aixm:elevation xsi:nil="true"/>
+                </aixm:ElevatedPoint>
+            </gml:pointProperty>
+        </gml:GeodesicString>
+    </gml:segments>
+</gml:Curve>
+                            </gml:curveMember>
+                        </gml:Ring>
+                    </gml:exterior>
+                </gml:PolygonPatch>
+            </gml:polygonPatches>
+            <aixm:horizontalAccuracy xsi:nil="true"/>
+        </aixm:Surface>
+    </aixm:horizontalProjection>
+    <aixm:centreline xsi:nil="true"/>
+    <aixm:annotation xsi:nil="true"/>
+</aixm:AirspaceVolume>
+                            </aixm:theAirspaceVolume>
+                        </aixm:AirspaceGeometryComponent>
+                    </aixm:geometryComponent>
+                    <aixm:activation>
+                        <aixm:AirspaceActivation gml:id="id201112">
+                            <aixm:timeInterval>
+<aixm:Timesheet gml:id="id130318">
+    <aixm:timeReference>UTC</aixm:timeReference>
+    <aixm:startDate>01-01</aixm:startDate>
+    <aixm:endDate>31-12</aixm:endDate>
+    <aixm:day>ANY</aixm:day>
+    <aixm:startTime>05:00</aixm:startTime>
+    <aixm:endTime>15:30</aixm:endTime>
+    <aixm:daylightSavingAdjust>NO</aixm:daylightSavingAdjust>
+    <aixm:excluded>NO</aixm:excluded>
+    <aixm:annotation xsi:nil="true"/>
+</aixm:Timesheet>
+                            </aixm:timeInterval>
+                            <aixm:annotation>
+<aixm:Note gml:id="id130230">
+    <aixm:purpose>REMARK</aixm:purpose>
+    <aixm:translatedNote>
+        <aixm:LinguisticNote gml:id="id130231">
+            <aixm:note lang="eng">During the period when the area is active, exercise involving the use of live ammunition will take place. This firing range is contained within HUD 3.</aixm:note>
+        </aixm:LinguisticNote>
+    </aixm:translatedNote>
+</aixm:Note>
+                            </aixm:annotation>
+                            <aixm:activity>SHOOTING</aixm:activity>
+                            <aixm:status>AVBL_FOR_ACTIVATION</aixm:status>
+                            <aixm:levels>
+<aixm:AirspaceLayer gml:id="id130332">
+    <aixm:upperLimit uom="FL">100</aixm:upperLimit>
+    <aixm:upperLimitReference>STD</aixm:upperLimitReference>
+    <aixm:lowerLimit uom="FL">000</aixm:lowerLimit>
+    <aixm:lowerLimitReference>STD</aixm:lowerLimitReference>
+    <aixm:altitudeInterpretation>ABOVE_LOWER</aixm:altitudeInterpretation>
+    <aixm:discreteLevelSeries xsi:nil="true"/>
+    <aixm:annotation xsi:nil="true"/>
+</aixm:AirspaceLayer>
+                            </aixm:levels>
+                            <aixm:user xlink:type="simple" xlink:href="urn:uuid:b5fc5773-48f4-4d23-9733-e410a9712d2b"/>
+                        </aixm:AirspaceActivation>
+                    </aixm:activation>
+                    <aixm:annotation xsi:nil="true"/>
+                </aixm:AirspaceTimeSlice>
+            </aixm:timeSlice>
+        </aixm:Airspace>
+    </message:hasMember>
+    </message:AIXMBasicMessage>
